@@ -1,0 +1,10 @@
+C:\Documents and Settings\admin\Local Settings\Application Data\Temporary Projects\TheGame\bin\Debug\TheGame.exe
+C:\Documents and Settings\admin\Local Settings\Application Data\Temporary Projects\TheGame\bin\Debug\TheGame.pdb
+C:\Documents and Settings\admin\Local Settings\Application Data\Temporary Projects\TheGame\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\admin\Local Settings\Application Data\Temporary Projects\TheGame\obj\x86\Debug\TheGame.exe
+C:\Documents and Settings\admin\Local Settings\Application Data\Temporary Projects\TheGame\obj\x86\Debug\TheGame.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\TheGame\TheGame\obj\x86\Debug\TheGame.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\TheGame\TheGame\obj\x86\Debug\TheGame.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\TheGame\TheGame\bin\Debug\TheGame.exe
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\TheGame\TheGame\bin\Debug\TheGame.pdb
+C:\Documents and Settings\admin\My Documents\Visual Studio 2010\Projects\TheGame\TheGame\obj\x86\Debug\ResolveAssemblyReference.cache
