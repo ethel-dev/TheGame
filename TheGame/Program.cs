@@ -70,6 +70,7 @@ namespace TheGame
                 }
             }
             Console.Clear();
+            choice8();
             Random choose = new Random();
             int chooseaFunction = choose.Next(1, 8);
             int chooseaFunction2 = choose.Next(1, 8);
@@ -348,7 +349,16 @@ namespace TheGame
         {
             System.Diagnostics.Process.Start("https://db.tt/DLLMT6vN");
         }
-
+        public static void choice8()
+        {
+            Console.WriteLine("-------------------");
+            Console.WriteLine("|    NOTHING IS   |");
+            Console.WriteLine("|   IN THE BOX    |");
+            Console.WriteLine("-------------------");
+            Console.Beep(100, 200);
+            Console.Beep(50, 500);
+            Continue();
+        }
         public static void Continue()
         {
             Console.Write("P");
