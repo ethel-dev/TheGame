@@ -70,10 +70,9 @@ namespace TheGame
                 }
             }
             Console.Clear();
-            choice8();
             Random choose = new Random();
-            int chooseaFunction = choose.Next(1, 8);
-            int chooseaFunction2 = choose.Next(1, 8);
+            int chooseaFunction = choose.Next(1, 9);
+            int chooseaFunction2 = choose.Next(1, 9);
             int chooseaRandomNumber = choose.Next(1, 3);
             #region Randomizer
             if (chooseaRandomNumber == 1)
@@ -107,6 +106,10 @@ namespace TheGame
                 {
                     choice7();
                 }
+                if (checkPlease == 8)
+                {
+                    choice8();
+                }
             }
             else
             {
@@ -138,6 +141,10 @@ namespace TheGame
                 if (checkPlease == 7)
                 {
                     choice7();
+                }
+                if (checkPlease == 8)
+                {
+                    choice8();
                 }
             }
             #endregion
@@ -358,6 +365,10 @@ namespace TheGame
             Console.Beep(100, 200);
             Console.Beep(50, 500);
             Continue();
+        }
+        public static void choice9()
+        {
+
         }
         public static void Continue()
         {
