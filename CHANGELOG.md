@@ -16,6 +16,8 @@ Version 1.0 - Initial Push
 <h3>Known Bugs</h3>
 - Initial start screen needs overhaul to be better.
     - Sometimes things happen that should not (i.e. saying you pressed the wrong button when you didn't press                    anything.
+
+
 Version 2.0 - TheNew TheGame
 ----------------------------
 - Added 3 new things to the Box!
