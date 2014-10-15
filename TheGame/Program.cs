@@ -71,8 +71,8 @@ namespace TheGame
             }
             Console.Clear();
             Random choose = new Random();
-            int chooseaFunction = choose.Next(1, 9);
-            int chooseaFunction2 = choose.Next(1, 9);
+            int chooseaFunction = choose.Next(1, 11);
+            int chooseaFunction2 = choose.Next(1, 11);
             int chooseaRandomNumber = choose.Next(1, 3);
             #region Randomizer
             if (chooseaRandomNumber == 1)
@@ -110,6 +110,14 @@ namespace TheGame
                 {
                     choice8();
                 }
+                if (checkPlease == 9)
+                {
+                    choice9();
+                }
+                if (checkPlease == 10)
+                {
+                    choice10();
+                }
             }
             else
             {
@@ -145,6 +153,14 @@ namespace TheGame
                 if (checkPlease == 8)
                 {
                     choice8();
+                }
+                if (checkPlease == 9)
+                {
+                    choice9();
+                }
+                if (checkPlease == 10)
+                {
+                    choice10();
                 }
             }
             #endregion
@@ -368,7 +384,27 @@ namespace TheGame
         }
         public static void choice9()
         {
-
+            string Progressbar = "What's in the Box?";
+            var title = "";
+            Console.SetWindowSize(27, 1);
+            
+            for (int i = 0; i < 10; i++)
+            {
+                for (int m = 0; m < Progressbar.Length; m++)
+                {
+                    title += Progressbar[m];
+                    Console.Title = title;
+                    Thread.Sleep(50);
+                }
+                Thread.Sleep(1000);
+                title = "";
+            }
+            
+           
+        }
+        public static void choice10()
+        {
+            Process.Start("https://dl.dropboxusercontent.com/u/66449290/Websites/quiz1.html");
         }
         public static void Continue()
         {
