@@ -385,64 +385,13 @@ namespace TheGame
         }
         public static void Continue()
         {
-            Console.Write("P");
-            Thread.Sleep(50);
-            Console.Write("r");
-            Thread.Sleep(50);
-            Console.Write("e");
-            Thread.Sleep(50);
-            Console.Write("s");
-            Thread.Sleep(50);
-            Console.Write("s");
-            Thread.Sleep(50);
-            Console.Write(" ");
-            Thread.Sleep(50);
-            Console.Write("a");
-            Thread.Sleep(50);
-            Console.Write("n");
-            Thread.Sleep(50);
-            Console.Write("y");
-            Thread.Sleep(50);
-            Console.Write(" ");
-            Thread.Sleep(50);
-            Console.Write("k");
-            Thread.Sleep(50);
-            Console.Write("e");
-            Thread.Sleep(50);
-            Console.Write("y");
-            Thread.Sleep(50);
-            Console.Write(" ");
-            Thread.Sleep(50);
-            Console.Write("t");
-            Thread.Sleep(50);
-            Console.Write("o");
-            Thread.Sleep(50);
-            Console.Write(" ");
-            Thread.Sleep(50);
-            Console.Write("c");
-            Thread.Sleep(50);
-            Console.Write("o");
-            Thread.Sleep(50);
-            Console.Write("n");
-            Thread.Sleep(50);
-            Console.Write("t");
-            Thread.Sleep(50);
-            Console.Write("i");
-            Thread.Sleep(50);
-            Console.Write("n");
-            Thread.Sleep(50);
-            Console.Write("u");
-            Thread.Sleep(50);
-            Console.Write("e");
-            Thread.Sleep(50);
-            Console.Write(".");
-            Thread.Sleep(50);
-            Console.Write(".");
-            Thread.Sleep(50);
-            Console.Write(".");
-            Thread.Sleep(50);
-
+            string anyKeyText = "Press any key to continue...";
+            for (int i = 0; i < anyKeyText.Length; i++)
+            {
+                Console.Write(anyKeyText[i]);
+                Thread.Sleep(50);
+            }
+            Console.ReadKey();
         }
-
     }
 }
